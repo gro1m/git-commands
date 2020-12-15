@@ -20,7 +20,7 @@ git config --global user.email "mmm@whateveryourprovideris.com"
 ## Create a new repository
 ```bash
 git clone <git https address>.git
-cd pyt-dsinst-examplebak-iac
+cd <directory of cloned git repo>
 touch README.md
 git add README.md
 git commit -m "add README"
