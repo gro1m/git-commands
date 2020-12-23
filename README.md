@@ -85,3 +85,8 @@ Examples of aliases:
 
 
 Check once: https://blog.tomasfejfar.cz/git-how-to-make-master-empty/
+
+## Remove everything in git folder
+```bash
+git rm -r .
+```
