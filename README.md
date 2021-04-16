@@ -90,3 +90,12 @@ Check once: https://blog.tomasfejfar.cz/git-how-to-make-master-empty/
 ```bash
 git rm -r .
 ```
+
+## How To Rename a Local and Remote Git Branch
+Article: https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/
+```bash
+git checkout <old_name>
+git branch -m <new_name>
+git push origin -u <new_name>
+git push origin --delete <old_name>
+```
