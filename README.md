@@ -99,3 +99,6 @@ git branch -m <new_name>
 git push origin -u <new_name>
 git push origin --delete <old_name>
 ```
+
+## Squashing commits
+https://www.internalpointers.com/post/squash-commits-into-one-git
