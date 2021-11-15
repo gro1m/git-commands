@@ -103,7 +103,7 @@ git push origin --delete <old_name>
 ## Squashing commits
 https://www.internalpointers.com/post/squash-commits-into-one-git
 
-##
+## Push older commit to master without force push
 If you want to avoid force pushing, here's how to revert your repo to an older commit and preserve all intervening work:
 ```bash
 git checkout 307a5cd        # check out the commit that you want to reset to 
