@@ -113,3 +113,6 @@ git checkout master         # switch back to master
 git merge fixy              # and merge in the fixed branch
 git push                    # done, no need to force push!
 ```
+
+# Git Reset 
+https://devconnected.com/how-to-git-reset-to-head/
