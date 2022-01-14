@@ -125,3 +125,22 @@ git rebase upstream/master
 git push origin master #maybe: git push origin master --force
 ```
 
+## How to "merge" specific files from another branch
+```bash
+git checkout <source_branch> <space-delimited paths>
+```
+
+## detached HEAD state
+### You are here by accident or you want to discard your experimental changes:
+```bash
+git checkout <branch-name>
+```
+or with Git 2.23.0 and above:
+```bash
+git switch <branch-name>
+```
+### You made experimental changes and want to keep them
+```bash
+git branch alt-history
+git checkout alt-history
+``
