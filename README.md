@@ -114,5 +114,14 @@ git merge fixy              # and merge in the fixed branch
 git push                    # done, no need to force push!
 ```
 
-# Git Reset 
+## Git Reset 
 https://devconnected.com/how-to-git-reset-to-head/
+
+## How to update a forked repo with git rebase
+```bash
+git remote add upstream https://github.com/original-repo/goes-here.git
+git fetch upstream
+git rebase upstream/master
+git push origin master #maybe: git push origin master --force
+```
+
