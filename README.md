@@ -86,6 +86,13 @@ Examples of aliases:
 
 Check once: https://blog.tomasfejfar.cz/git-how-to-make-master-empty/
 
+## How to remove files from git commit
+```bash
+git reset --soft HEAD~1
+git reset HEAD <filename> # remove <filename> from staging area
+git commit --amend # commit changes again.
+```
+
 ## Remove everything in git folder
 ```bash
 git rm -r .
@@ -143,4 +150,4 @@ git switch <branch-name>
 ```bash
 git branch alt-history
 git checkout alt-history
-``
+```
