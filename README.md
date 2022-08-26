@@ -151,3 +151,14 @@ git switch <branch-name>
 git branch alt-history
 git checkout alt-history
 ```
+
+## Checkout file from another branch
+Go into the branch, where you want to check it into:
+```bash
+git checkout <branch A>
+```
+Checkout file from other branch B:
+```bash
+git checkout <branch B> -- <file path>
+```
+
