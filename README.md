@@ -1,6 +1,10 @@
 # Git Commands
 GitLab Cheatsheet URL: <https://about.gitlab.com/images/press/git-cheat-sheet.pdf>
+
+GitLab Cheatsheet URL Nr. 2: <https://aaltoscicomp.github.io/cheatsheets/git-cheatsheet.pdf>
+
 Atlassian Cheatsheet URL: <https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet>
+
 GitHub Cheatsheet URL: <https://about.gitlab.com/images/press/git-cheat-sheet.pdf>
 
 ## GitHub: Initialize repo
