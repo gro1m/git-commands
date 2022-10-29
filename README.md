@@ -1,4 +1,9 @@
-# GitHub: Initialize repo
+# Git Commands
+GitLab Cheatsheet URL: <https://about.gitlab.com/images/press/git-cheat-sheet.pdf>
+Atlassian Cheatsheet URL: <https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet>
+GitHub Cheatsheet URL: <https://about.gitlab.com/images/press/git-cheat-sheet.pdf>
+
+## GitHub: Initialize repo
 ```bash
 echo "# README" >> README.md
 git init
@@ -9,15 +14,15 @@ git remote add origin https://github.com/gro1m/azure-dp100.git
 git push --set-upstream origin main
 ```
 
-# GitLab: Initialize repo
+## GitLab: Initialize repo
 
-## Git global setup
+### Git global setup
 ```bash
 git config --global user.name "MMM"
 git config --global user.email "mmm@whateveryourprovideris.com"
 ```
 
-## Create a new repository
+### Create a new repository
 ```bash
 git clone <git https address>.git
 cd <directory of cloned git repo>
@@ -27,7 +32,7 @@ git commit -m "add README"
 git push -u origin master
 ```
 
-## Push an existing folder
+### Push an existing folder
 ```bash
 cd existing_folder
 git init
@@ -46,32 +51,32 @@ git push -u origin --all
 git push -u origin --tags
 ```
 
-# Rollback
-## Number 1
+## Rollback
+### Number 1
 ```bash
 git revert --no-commit <commit-SHA-1 (first eight numbers)>..HEAD
 git add .
 git commit -m "<commit message>"
 git push
 ```
-## Number 2
+### Number 2
 ```bash
 git revert --no-edit <commit-SHA-1 (first eight numbers)>..HEAD
 git push
 ```
-## Number 3
+### Number 3
 ```bash
 git revert --no-commit HEAD~<number of commits>..
 git add .
 git commit -m "<commit message>"
 git push
 ```
-## Number 4
+### Number 4
 ```bash
 git revert --no-edit HEAD~<number of commits>..
 git push
 ```
-## Save configuration
+### Save configuration
 ```bash
 cat >> ~/.gitconfig
 [alias]
