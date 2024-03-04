@@ -63,7 +63,7 @@ git branch -d feature/login
 ```
 
 ### Remote
-````bash
+```bash
 git push origin --delete feature/login
 ```
 
