@@ -55,6 +55,14 @@ git push -u origin --all
 git push -u origin --tags
 ```
 
+## Delete branches
+
+### Local
+git branch -d feature/login
+
+### Remote
+git push origin --delete feature/login
+
 ## Rollback
 ### Number 1
 ```bash
