@@ -58,10 +58,14 @@ git push -u origin --tags
 ## Delete branches
 
 ### Local
+```bash
 git branch -d feature/login
+```
 
 ### Remote
+````bash
 git push origin --delete feature/login
+```
 
 ## Rollback
 ### Number 1
